@@ -6,6 +6,7 @@ TagManager:
   tags:
   - CottonCandy
   - Bottle
+  - Balloon
   layers:
   - Default
   - TransparentFX
