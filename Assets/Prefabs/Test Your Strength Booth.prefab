@@ -614,7 +614,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   strikeMultiplier: 0.01
-  centerOfMass: {fileID: 0}
+  centerOfMass: {fileID: 2946955118651469490}
+--- !u!4 &2946955118651469490 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3335064216616213254, guid: 4a00bc74a86810e4f8271a43379f30b8,
+    type: 3}
+  m_PrefabInstance: {fileID: 481101402529854900}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &7762037866813417874 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7860324504368618534, guid: 4a00bc74a86810e4f8271a43379f30b8,
