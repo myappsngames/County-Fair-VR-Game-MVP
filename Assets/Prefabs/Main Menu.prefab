@@ -93,7 +93,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 8681148521722053069}
+      - m_Target: {fileID: 4255273778412870273}
         m_TargetAssemblyTypeName: MainMenuBehavior, Assembly-CSharp
         m_MethodName: OnStartClicked
         m_Mode: 1
@@ -266,8 +266,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 8681148521722053069}
-        m_TargetAssemblyTypeName: MainMenuBehavior, Assembly-CSharp
+      - m_Target: {fileID: 4255273778412870273}
+        m_TargetAssemblyTypeName: BaseMenuBehavior, Assembly-CSharp
         m_MethodName: OnToggleSnapTurnClicked
         m_Mode: 1
         m_Arguments:
@@ -277,7 +277,7 @@ MonoBehaviour:
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
-        m_CallState: 2
+        m_CallState: 1
 --- !u!114 &4604256199732579827
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -778,9 +778,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 8681148521722053069}
-        m_TargetAssemblyTypeName: MainMenuBehavior, Assembly-CSharp
-        m_MethodName: OnSettingsBackClick
+      - m_Target: {fileID: 4255273778412870273}
+        m_TargetAssemblyTypeName: BaseMenuBehavior, Assembly-CSharp
+        m_MethodName: OnSettingsBackClicked
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1175,7 +1175,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 784619725432990783}
-  - component: {fileID: 8681148521722053069}
+  - component: {fileID: 4255273778412870273}
   m_Layer: 0
   m_Name: Main Menu
   m_TagString: Untagged
@@ -1200,7 +1200,7 @@ Transform:
   - {fileID: 1520283035492185962}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: -53.493, z: 0}
---- !u!114 &8681148521722053069
+--- !u!114 &4255273778412870273
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1212,7 +1212,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 389b6ed07d679764fa47f82cc184ed11, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mainMenuScreen: {fileID: 7018886535413760859}
+  defaultMenuScreen: {fileID: 7018886535413760859}
   settingsScreen: {fileID: 673779230026223088}
   snapTurnButtonText: {fileID: 284486255411695528}
 --- !u!1 &4846365210919311903
@@ -1383,8 +1383,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 8681148521722053069}
-        m_TargetAssemblyTypeName: MainMenuBehavior, Assembly-CSharp
+      - m_Target: {fileID: 4255273778412870273}
+        m_TargetAssemblyTypeName: BaseMenuBehavior, Assembly-CSharp
         m_MethodName: OnSettingsClicked
         m_Mode: 1
         m_Arguments:
@@ -2635,8 +2635,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 8681148521722053069}
-        m_TargetAssemblyTypeName: MainMenuBehavior, Assembly-CSharp
+      - m_Target: {fileID: 4255273778412870273}
+        m_TargetAssemblyTypeName: BaseMenuBehavior, Assembly-CSharp
         m_MethodName: OnQuitClicked
         m_Mode: 1
         m_Arguments:

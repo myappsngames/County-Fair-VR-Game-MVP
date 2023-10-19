@@ -1,9 +1,12 @@
 using UnityEngine;
 using UnityEngine.UI;
 
-public class InGameMenuBehavior : MonoBehaviour
+// public abstract class; Can't create instances of it directly.
+// instead create  new classes that inherit from abstract class
+// new classes can be used to create game objects with specific properties and functionality.
+public abstract class BaseMenuBehavior : MonoBehaviour
 {
-    [SerializeField] private GameObject inGameMenuScreen;
+    [SerializeField] private GameObject defaultMenuScreen;
     [SerializeField] private GameObject settingsScreen;
     [SerializeField] private Text snapTurnButtonText;
 
@@ -19,7 +22,7 @@ public class InGameMenuBehavior : MonoBehaviour
     {
         _isMenuOpen = !_isMenuOpen;
         // set menu on or off
-        inGameMenuScreen.SetActive(_isMenuOpen);
+        defaultMenuScreen.SetActive(_isMenuOpen);
         // turn settings screen off
         settingsScreen.SetActive(false);
     }
@@ -27,7 +30,7 @@ public class InGameMenuBehavior : MonoBehaviour
     public void OnSettingsClicked()
     {
         // turn off main menu screen
-        inGameMenuScreen.SetActive(false);
+        defaultMenuScreen.SetActive(false);
         // turn on settings screen
         settingsScreen.SetActive(true);
     }
@@ -52,12 +55,11 @@ public class InGameMenuBehavior : MonoBehaviour
         }
     }
 
-    public void OnSettingsBackClick()
+    public void OnSettingsBackClicked()
     {
         // turn off settings screen
         settingsScreen.SetActive(false);
         // turn on main menu screen
-        inGameMenuScreen.SetActive(true);
-        
+        defaultMenuScreen.SetActive(true);
     }
 }

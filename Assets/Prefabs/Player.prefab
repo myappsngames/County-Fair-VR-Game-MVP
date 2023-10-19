@@ -911,7 +911,7 @@ LineRenderer:
   m_Positions: []
   m_Parameters:
     serializedVersion: 3
-    widthMultiplier: 0.02
+    widthMultiplier: 0.01
     widthCurve:
       serializedVersion: 2
       m_Curve:
@@ -1525,7 +1525,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8762692547096066826}
-  - component: {fileID: 7434262500966187427}
+  - component: {fileID: 2305813471958403074}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -1552,7 +1552,7 @@ Transform:
   - {fileID: 3960998525341093847}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: -54.088, z: 0}
---- !u!114 &7434262500966187427
+--- !u!114 &2305813471958403074
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1829,7 +1829,7 @@ LineRenderer:
   m_Positions: []
   m_Parameters:
     serializedVersion: 3
-    widthMultiplier: 0.02
+    widthMultiplier: 0.01
     widthCurve:
       serializedVersion: 2
       m_Curve:
@@ -2398,7 +2398,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1644312765610506926}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: -15.6}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -2407,7 +2407,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 30, y: 0}
   m_SizeDelta: {x: 25, y: 25}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &623290502089378584
@@ -2492,8 +2492,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 2336484537499827093}
-        m_TargetAssemblyTypeName: InGameMenuBehavior, Assembly-CSharp
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: BaseMenuBehavior, Assembly-CSharp
         m_MethodName: ToggleMenu
         m_Mode: 1
         m_Arguments:
@@ -3471,8 +3471,8 @@ MonoBehaviour:
   m_Move: {fileID: 6972639530819350904, guid: c348712bda248c246b8c49b3db54643f, type: 3}
   m_UIScroll: {fileID: 2464016903823916871, guid: c348712bda248c246b8c49b3db54643f,
     type: 3}
-  m_SmoothMotionEnabled: 1
-  m_SmoothTurnEnabled: 0
+  m_SmoothMotionEnabled: 0
+  m_SmoothTurnEnabled: 1
   m_UIScrollingEnabled: 1
   m_RayInteractorChanged:
     m_PersistentCalls:
@@ -4380,7 +4380,7 @@ LineRenderer:
   m_Positions: []
   m_Parameters:
     serializedVersion: 3
-    widthMultiplier: 0.02
+    widthMultiplier: 0.005
     widthCurve:
       serializedVersion: 2
       m_Curve:
@@ -5757,7 +5757,7 @@ LineRenderer:
   m_Positions: []
   m_Parameters:
     serializedVersion: 3
-    widthMultiplier: 0.02
+    widthMultiplier: 0.005
     widthCurve:
       serializedVersion: 2
       m_Curve:
@@ -6195,18 +6195,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bf693ad0205a60249912bba932723cde, type: 3}
---- !u!114 &2336484537499827093 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 5014406524878528636, guid: bf693ad0205a60249912bba932723cde,
-    type: 3}
-  m_PrefabInstance: {fileID: 7348216959879060457}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 18d4af6920ec7774ab3194f25f1a0f4e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!4 &6716965025169995486 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4093042528065776951, guid: bf693ad0205a60249912bba932723cde,
