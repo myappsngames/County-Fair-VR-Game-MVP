@@ -20,6 +20,9 @@ public abstract class BaseMenuBehavior : MonoBehaviour
 
     public void ToggleMenu()
     {
+        // Does not show in-game UI if in Start Gamestate
+        if (GameManager.instance.State == GameState.Start) return;
+
         _isMenuOpen = !_isMenuOpen;
         // set menu on or off
         defaultMenuScreen.SetActive(_isMenuOpen);
