@@ -2492,7 +2492,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 1581995820375426980}
         m_TargetAssemblyTypeName: BaseMenuBehavior, Assembly-CSharp
         m_MethodName: ToggleMenu
         m_Mode: 1
@@ -6195,6 +6195,18 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bf693ad0205a60249912bba932723cde, type: 3}
+--- !u!114 &1581995820375426980 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8074528300492840013, guid: bf693ad0205a60249912bba932723cde,
+    type: 3}
+  m_PrefabInstance: {fileID: 7348216959879060457}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 18d4af6920ec7774ab3194f25f1a0f4e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!4 &6716965025169995486 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4093042528065776951, guid: bf693ad0205a60249912bba932723cde,
