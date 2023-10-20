@@ -586,7 +586,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &3268332500942733174
 Transform:
   m_ObjectHideFlags: 0
@@ -1391,7 +1391,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8762692547096066826}
-  - component: {fileID: 2305813471958403074}
+  - component: {fileID: 4402271107360756575}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -1418,7 +1418,7 @@ Transform:
   - {fileID: 3960998525341093847}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: -54.088, z: 0}
---- !u!114 &2305813471958403074
+--- !u!114 &4402271107360756575
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
