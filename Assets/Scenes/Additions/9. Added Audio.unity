@@ -6330,6 +6330,11 @@ PrefabInstance:
       propertyPath: centerOfMass
       value: 
       objectReference: {fileID: 1021089090}
+    - target: {fileID: 7672887699915516197, guid: b3cd9e13799448342aa866b52a672647,
+        type: 3}
+      propertyPath: objectTag
+      value: Hammer
+      objectReference: {fileID: 0}
     - target: {fileID: 8513270573173147740, guid: b3cd9e13799448342aa866b52a672647,
         type: 3}
       propertyPath: m_TagString
@@ -6385,9 +6390,7 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents:
-    - {fileID: 7672887699915516197, guid: b3cd9e13799448342aa866b52a672647, type: 3}
-    - {fileID: 4119590197449771849, guid: b3cd9e13799448342aa866b52a672647, type: 3}
+    m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -6522,6 +6525,51 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2355059985971948591, guid: 7d66022af0c93124da1c993b7ff87ca0,
+        type: 3}
+      propertyPath: m_TagString
+      value: Ring
+      objectReference: {fileID: 0}
+    - target: {fileID: 2608896584260692880, guid: 7d66022af0c93124da1c993b7ff87ca0,
+        type: 3}
+      propertyPath: m_TagString
+      value: Ring
+      objectReference: {fileID: 0}
+    - target: {fileID: 2856477904271180414, guid: 7d66022af0c93124da1c993b7ff87ca0,
+        type: 3}
+      propertyPath: m_Volume
+      value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4208844551035661101, guid: 7d66022af0c93124da1c993b7ff87ca0,
+        type: 3}
+      propertyPath: m_TagString
+      value: Ring
+      objectReference: {fileID: 0}
+    - target: {fileID: 5467274526206715868, guid: 7d66022af0c93124da1c993b7ff87ca0,
+        type: 3}
+      propertyPath: m_Volume
+      value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5536366182908443755, guid: 7d66022af0c93124da1c993b7ff87ca0,
+        type: 3}
+      propertyPath: m_Volume
+      value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5842959426255386342, guid: 7d66022af0c93124da1c993b7ff87ca0,
+        type: 3}
+      propertyPath: m_TagString
+      value: Ring
+      objectReference: {fileID: 0}
+    - target: {fileID: 5952492416247533622, guid: 7d66022af0c93124da1c993b7ff87ca0,
+        type: 3}
+      propertyPath: m_TagString
+      value: Ring
+      objectReference: {fileID: 0}
+    - target: {fileID: 6460264706901427261, guid: 7d66022af0c93124da1c993b7ff87ca0,
+        type: 3}
+      propertyPath: m_Volume
+      value: 0.2
       objectReference: {fileID: 0}
     - target: {fileID: 7823286670075993547, guid: 7d66022af0c93124da1c993b7ff87ca0,
         type: 3}
@@ -6722,6 +6770,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 416393721235265459, guid: 3e16dfb547c2552428d235a74a3cc046,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 643567294654568474, guid: 3e16dfb547c2552428d235a74a3cc046,
         type: 3}
       propertyPath: m_Name
@@ -6731,6 +6784,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_SmoothTurnEnabled
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7019210790098480983, guid: 3e16dfb547c2552428d235a74a3cc046,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8762692547096066826, guid: 3e16dfb547c2552428d235a74a3cc046,
         type: 3}
