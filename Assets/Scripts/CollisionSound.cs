@@ -1,4 +1,3 @@
-using TMPro;
 using UnityEngine;
 
 // Require AudioSource to use this script
@@ -25,13 +24,12 @@ public class CollisionSound : MonoBehaviour
     // event for detecting collision
     private void OnCollisionEnter(Collision collision)
     {
-        if(collision.gameObject.CompareTag(objectTag))
+        if (collision.gameObject.CompareTag(objectTag))
         {
             // varies the pitch
             _audioSource.pitch = Random.Range(minPitch, maxPitch);
             // PlayOneShot allows sound clip to finish
             _audioSource.PlayOneShot(_audioSource.clip);
-
         }
     }
 }

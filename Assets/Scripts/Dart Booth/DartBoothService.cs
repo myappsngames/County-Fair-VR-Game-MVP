@@ -8,7 +8,6 @@ public class DartBoothService : MonoBehaviour
 
     public float Timer => _timer; // a one way read only access to _timer for DartBoothPresenter
     private float _timer;
-
     public bool IsTimerRunning => _isTimerRunning; // a one way read only access to _isTimerRunning for DartBoothPresenter
     private bool _isTimerRunning;
 

@@ -17,7 +17,7 @@ public class DartBoothPresenter : MonoBehaviour
     {
         if (_dartBoothService.IsTimerRunning)
         {
-            TMP_Timer.text = "Timer: " + TimeSpan.FromSeconds(_dartBoothService.Timer).ToString("mm\\:ss\\.fff");
+            TMP_Timer.text = "Timer: " + TimeSpan.FromSeconds(_dartBoothService.Timer).ToString("mm\\:ss\\.ff");
         }
     }
 }

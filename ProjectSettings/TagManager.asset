@@ -11,6 +11,7 @@ TagManager:
   - Ring
   - Left Hand Model
   - Right Hand Model
+  - Pistol
   layers:
   - Default
   - TransparentFX

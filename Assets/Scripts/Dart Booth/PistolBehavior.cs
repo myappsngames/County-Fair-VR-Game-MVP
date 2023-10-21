@@ -5,7 +5,15 @@ public class PistolBehavior : MonoBehaviour
     [SerializeField] private Transform raycastOrigin;
     [SerializeField] float shootDistance = 10f; // 10 meters
 
+    // field to control min and max pitch of sound
+    [SerializeField] float minPitch = 0.9f;
+    [SerializeField] float maxPitch = 1.1f;
+    // variable for audio source
+   [SerializeField] private AudioSource _audioSource;
+
     private DartBoothService _dartBoothService;
+
+  
 
     // Start is called before the first frame update
     void Start()
@@ -26,7 +34,12 @@ public class PistolBehavior : MonoBehaviour
             {
                 // set balloon that is hit to false
                 hit.transform.gameObject.SetActive(false);
-                _dartBoothService.PopBalloon();
+                // varies the pitch
+                _audioSource.pitch = Random.Range(minPitch, maxPitch);
+                // PlayOneShot allows sound clip to finish
+                _audioSource.PlayOneShot(_audioSource.clip);
+                // keep track of popped balloons to end dart booth game
+                _dartBoothService.PopBalloon();   
             }
         }
     }
