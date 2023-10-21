@@ -9,17 +9,22 @@ public class PistolBehavior : MonoBehaviour
     [SerializeField] float minPitch = 0.9f;
     [SerializeField] float maxPitch = 1.1f;
     // variable for audio source
-   [SerializeField] private AudioSource _audioSource;
+    [SerializeField] private AudioSource _balloonPop;
+    [SerializeField] private AudioSource _gunBlast;
 
     private DartBoothService _dartBoothService;
-
-  
 
     // Start is called before the first frame update
     void Start()
     {
         // access public methods in DartBoothService.cs
         _dartBoothService = FindObjectOfType<DartBoothService>();
+    }
+
+    public void gunBlast()
+    {
+        _gunBlast.pitch = Random.Range(minPitch, maxPitch);
+        _gunBlast.PlayOneShot(_gunBlast.clip);
     }
 
     public void Shoot()
@@ -35,9 +40,9 @@ public class PistolBehavior : MonoBehaviour
                 // set balloon that is hit to false
                 hit.transform.gameObject.SetActive(false);
                 // varies the pitch
-                _audioSource.pitch = Random.Range(minPitch, maxPitch);
+                _balloonPop.pitch = Random.Range(minPitch, maxPitch);    
                 // PlayOneShot allows sound clip to finish
-                _audioSource.PlayOneShot(_audioSource.clip);
+                _balloonPop.PlayOneShot(_balloonPop.clip);
                 // keep track of popped balloons to end dart booth game
                 _dartBoothService.PopBalloon();   
             }
