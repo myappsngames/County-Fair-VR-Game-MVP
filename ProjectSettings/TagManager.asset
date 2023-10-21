@@ -9,6 +9,8 @@ TagManager:
   - Balloon
   - Hammer
   - Ring
+  - Left Hand Model
+  - Right Hand Model
   layers:
   - Default
   - TransparentFX

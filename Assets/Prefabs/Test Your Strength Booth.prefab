@@ -18,7 +18,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1477431475628083290
 Transform:
@@ -646,12 +646,17 @@ PrefabInstance:
     - target: {fileID: 691256737136625436, guid: 4a00bc74a86810e4f8271a43379f30b8,
         type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 2147483647
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 853737352813411644, guid: 4a00bc74a86810e4f8271a43379f30b8,
         type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 2147483647
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1701693072389997669, guid: 4a00bc74a86810e4f8271a43379f30b8,
+        type: 3}
+      propertyPath: m_InteractionLayers.m_Bits
+      value: 512
       objectReference: {fileID: 0}
     - target: {fileID: 2234703962169206510, guid: 4a00bc74a86810e4f8271a43379f30b8,
         type: 3}
@@ -661,17 +666,17 @@ PrefabInstance:
     - target: {fileID: 2234703962169206510, guid: 4a00bc74a86810e4f8271a43379f30b8,
         type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 2147483647
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4558674752234110027, guid: 4a00bc74a86810e4f8271a43379f30b8,
         type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 2147483647
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7021498038426410580, guid: 4a00bc74a86810e4f8271a43379f30b8,
         type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 2147483647
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7860324504368618534, guid: 4a00bc74a86810e4f8271a43379f30b8,
         type: 3}
@@ -726,7 +731,7 @@ PrefabInstance:
     - target: {fileID: 8108732598236118504, guid: 4a00bc74a86810e4f8271a43379f30b8,
         type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 2147483647
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 6965230180654408103, guid: 4a00bc74a86810e4f8271a43379f30b8, type: 3}

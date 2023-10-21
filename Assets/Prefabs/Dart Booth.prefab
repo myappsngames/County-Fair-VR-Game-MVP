@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 5267040988135981143}
   - component: {fileID: 7800525445529528135}
   - component: {fileID: 6445506951047184173}
-  m_Layer: 9
+  m_Layer: 0
   m_Name: pole1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -118,7 +118,7 @@ GameObject:
   - component: {fileID: 4121014636405783229}
   - component: {fileID: 7089544687263454509}
   - component: {fileID: 58807641309781129}
-  m_Layer: 9
+  m_Layer: 0
   m_Name: tent
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -224,12 +224,12 @@ GameObject:
   - component: {fileID: 1019157957008571530}
   - component: {fileID: 3898092434624440290}
   - component: {fileID: 4312119205882082318}
-  m_Layer: 9
+  m_Layer: 0
   m_Name: balloon.009
   m_TagString: Balloon
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &87046756284354468
 Transform:
@@ -330,12 +330,12 @@ GameObject:
   - component: {fileID: 423413885019415380}
   - component: {fileID: 4428998727222062157}
   - component: {fileID: 7023531884561317937}
-  m_Layer: 9
+  m_Layer: 0
   m_Name: balloon.005
   m_TagString: Balloon
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &242050590384018073
 Transform:
@@ -435,7 +435,7 @@ GameObject:
   - component: {fileID: 4416107032211554944}
   - component: {fileID: 2563767113959100602}
   - component: {fileID: 1870020484929469565}
-  m_Layer: 9
+  m_Layer: 0
   m_Name: Dart Booth
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -540,7 +540,7 @@ GameObject:
   - component: {fileID: 9159685538821521463}
   - component: {fileID: 3386125918275374686}
   - component: {fileID: 1830990726374472639}
-  m_Layer: 9
+  m_Layer: 0
   m_Name: pole3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -646,7 +646,7 @@ GameObject:
   - component: {fileID: 7781543261111527177}
   - component: {fileID: 1248581713583408895}
   - component: {fileID: 38369861341082968}
-  m_Layer: 9
+  m_Layer: 0
   m_Name: pole4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -752,12 +752,12 @@ GameObject:
   - component: {fileID: 1043816770047136036}
   - component: {fileID: 7791881010288126010}
   - component: {fileID: 813594434790088687}
-  m_Layer: 9
+  m_Layer: 0
   m_Name: balloon.004
   m_TagString: Balloon
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &3856942336565648010
 Transform:
@@ -858,7 +858,7 @@ GameObject:
   - component: {fileID: 7492215629050858637}
   - component: {fileID: 3421877027130760954}
   - component: {fileID: 1293176436094058250}
-  m_Layer: 9
+  m_Layer: 0
   m_Name: Button
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -991,12 +991,12 @@ GameObject:
   - component: {fileID: 5667060369391518201}
   - component: {fileID: 5301352546460618390}
   - component: {fileID: 4985077496274584967}
-  m_Layer: 9
+  m_Layer: 0
   m_Name: balloon.001
   m_TagString: Balloon
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &7010089710715431360
 Transform:
@@ -1097,12 +1097,12 @@ GameObject:
   - component: {fileID: 1467716195992744900}
   - component: {fileID: 7803920271298693424}
   - component: {fileID: 3279604442673826490}
-  m_Layer: 9
+  m_Layer: 0
   m_Name: balloon.015
   m_TagString: Balloon
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &7981496163096061255
 Transform:
@@ -1204,7 +1204,7 @@ GameObject:
   - component: {fileID: 5663148666147834182}
   - component: {fileID: 4585212741663889357}
   - component: {fileID: 2071765317368544115}
-  m_Layer: 9
+  m_Layer: 0
   m_Name: Dart Booth Canvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1325,7 +1325,7 @@ GameObject:
   - component: {fileID: 2249356783458520080}
   - component: {fileID: 3924170351919269870}
   - component: {fileID: 9027167758260124427}
-  m_Layer: 9
+  m_Layer: 0
   m_Name: Text (TMP)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1460,12 +1460,12 @@ GameObject:
   - component: {fileID: 8268059051218498089}
   - component: {fileID: 6267427716383537389}
   - component: {fileID: 4654939153624096255}
-  m_Layer: 9
+  m_Layer: 0
   m_Name: balloon.011
   m_TagString: Balloon
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &8602180987119685369
 Transform:
@@ -1566,12 +1566,12 @@ GameObject:
   - component: {fileID: 8405847505979678206}
   - component: {fileID: 4205374015654586200}
   - component: {fileID: 1647874308831115707}
-  m_Layer: 9
+  m_Layer: 0
   m_Name: balloon
   m_TagString: Balloon
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &3893719843556344555
 Transform:
@@ -1672,12 +1672,12 @@ GameObject:
   - component: {fileID: 5042430265754124321}
   - component: {fileID: 1023468663763044755}
   - component: {fileID: 2974125535875682155}
-  m_Layer: 9
+  m_Layer: 0
   m_Name: balloon.013
   m_TagString: Balloon
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &9031168766002695258
 Transform:
@@ -1778,12 +1778,12 @@ GameObject:
   - component: {fileID: 1638532386901621559}
   - component: {fileID: 8747509699414999994}
   - component: {fileID: 5894090330517683488}
-  m_Layer: 9
+  m_Layer: 0
   m_Name: balloon.010
   m_TagString: Balloon
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &4148183828945867214
 Transform:
@@ -1884,12 +1884,12 @@ GameObject:
   - component: {fileID: 8256837024585032148}
   - component: {fileID: 6483825519790007676}
   - component: {fileID: 6848780353116170949}
-  m_Layer: 9
+  m_Layer: 0
   m_Name: balloon.002
   m_TagString: Balloon
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &8690660377819205304
 Transform:
@@ -1990,12 +1990,12 @@ GameObject:
   - component: {fileID: 4404283593880857484}
   - component: {fileID: 896928642674529241}
   - component: {fileID: 7737990313898401498}
-  m_Layer: 9
+  m_Layer: 0
   m_Name: balloon.012
   m_TagString: Balloon
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &6324324452895359287
 Transform:
@@ -2096,7 +2096,7 @@ GameObject:
   - component: {fileID: 8015273555966686307}
   - component: {fileID: 7986933176129300107}
   - component: {fileID: 555506196622617480}
-  m_Layer: 9
+  m_Layer: 0
   m_Name: booth
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2202,12 +2202,12 @@ GameObject:
   - component: {fileID: 4432455956064912768}
   - component: {fileID: 1456974717176572807}
   - component: {fileID: 1465358886077709163}
-  m_Layer: 9
+  m_Layer: 0
   m_Name: balloon.016
   m_TagString: Balloon
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &9042056029320043266
 Transform:
@@ -2308,12 +2308,12 @@ GameObject:
   - component: {fileID: 2382407374771143859}
   - component: {fileID: 1622770910227848292}
   - component: {fileID: 2761227098788767183}
-  m_Layer: 9
+  m_Layer: 0
   m_Name: balloon.008
   m_TagString: Balloon
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &3914886675651819583
 Transform:
@@ -2414,12 +2414,12 @@ GameObject:
   - component: {fileID: 4779724603617635456}
   - component: {fileID: 6987010577656049044}
   - component: {fileID: 7373851244710225925}
-  m_Layer: 9
+  m_Layer: 0
   m_Name: balloon.007
   m_TagString: Balloon
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &6167950022647605432
 Transform:
@@ -2520,12 +2520,12 @@ GameObject:
   - component: {fileID: 3477728033200035568}
   - component: {fileID: 4310347361729390527}
   - component: {fileID: 3493686468484479100}
-  m_Layer: 9
+  m_Layer: 0
   m_Name: balloon.003
   m_TagString: Balloon
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &5773875384991631889
 Transform:
@@ -2626,7 +2626,7 @@ GameObject:
   - component: {fileID: 2279414870374883698}
   - component: {fileID: 9123316099780715270}
   - component: {fileID: 5366223653160514679}
-  m_Layer: 9
+  m_Layer: 0
   m_Name: back wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2731,7 +2731,7 @@ GameObject:
   - component: {fileID: 5913961296862676773}
   - component: {fileID: 4622117016552196516}
   - component: {fileID: 5140327684127681195}
-  m_Layer: 9
+  m_Layer: 0
   m_Name: Text (TMP)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2866,12 +2866,12 @@ GameObject:
   - component: {fileID: 3322710771115141937}
   - component: {fileID: 2364820000228032434}
   - component: {fileID: 909092246867700501}
-  m_Layer: 9
+  m_Layer: 0
   m_Name: balloon.006
   m_TagString: Balloon
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &9033043165369073332
 Transform:
@@ -2972,7 +2972,7 @@ GameObject:
   - component: {fileID: 9132250607572870209}
   - component: {fileID: 3860143299582562953}
   - component: {fileID: 1528292717612327722}
-  m_Layer: 9
+  m_Layer: 0
   m_Name: pole2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3078,12 +3078,12 @@ GameObject:
   - component: {fileID: 3306083067429035097}
   - component: {fileID: 1339515130648755347}
   - component: {fileID: 3196647506220969086}
-  m_Layer: 9
+  m_Layer: 0
   m_Name: balloon.017
   m_TagString: Balloon
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &2852081811738890801
 Transform:
@@ -3184,12 +3184,12 @@ GameObject:
   - component: {fileID: 5567040271161800225}
   - component: {fileID: 8770973560037937501}
   - component: {fileID: 2969281045860581336}
-  m_Layer: 9
+  m_Layer: 0
   m_Name: balloon.014
   m_TagString: Balloon
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &7138702468073815436
 Transform:
@@ -3339,42 +3339,42 @@ PrefabInstance:
     - target: {fileID: 1711001299035901739, guid: bc9cc79c1719a9e42849919f1b1c6149,
         type: 3}
       propertyPath: m_Layer
-      value: 9
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1711001299035901739, guid: bc9cc79c1719a9e42849919f1b1c6149,
         type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 2147483647
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2302995703404923851, guid: bc9cc79c1719a9e42849919f1b1c6149,
         type: 3}
       propertyPath: m_Layer
-      value: 9
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2302995703404923851, guid: bc9cc79c1719a9e42849919f1b1c6149,
         type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 2147483647
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2863265668552503965, guid: bc9cc79c1719a9e42849919f1b1c6149,
         type: 3}
       propertyPath: m_Layer
-      value: 9
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2863265668552503965, guid: bc9cc79c1719a9e42849919f1b1c6149,
         type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 2147483647
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3295390465813372244, guid: bc9cc79c1719a9e42849919f1b1c6149,
         type: 3}
       propertyPath: m_Layer
-      value: 9
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3295390465813372244, guid: bc9cc79c1719a9e42849919f1b1c6149,
         type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 2147483647
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3824939489991943837, guid: bc9cc79c1719a9e42849919f1b1c6149,
         type: 3}
@@ -3384,22 +3384,27 @@ PrefabInstance:
     - target: {fileID: 3824939489991943837, guid: bc9cc79c1719a9e42849919f1b1c6149,
         type: 3}
       propertyPath: m_Layer
-      value: 9
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3824939489991943837, guid: bc9cc79c1719a9e42849919f1b1c6149,
         type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 2147483647
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4050953314586054057, guid: bc9cc79c1719a9e42849919f1b1c6149,
         type: 3}
       propertyPath: m_Layer
-      value: 9
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4050953314586054057, guid: bc9cc79c1719a9e42849919f1b1c6149,
         type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 2147483647
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6138266187486232025, guid: bc9cc79c1719a9e42849919f1b1c6149,
+        type: 3}
+      propertyPath: m_InteractionLayers.m_Bits
+      value: 513
       objectReference: {fileID: 0}
     - target: {fileID: 6138266187486232025, guid: bc9cc79c1719a9e42849919f1b1c6149,
         type: 3}
@@ -3439,47 +3444,51 @@ PrefabInstance:
     - target: {fileID: 6326138196127232142, guid: bc9cc79c1719a9e42849919f1b1c6149,
         type: 3}
       propertyPath: m_Layer
-      value: 9
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6326138196127232142, guid: bc9cc79c1719a9e42849919f1b1c6149,
         type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 2147483647
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7992228048046789824, guid: bc9cc79c1719a9e42849919f1b1c6149,
         type: 3}
       propertyPath: m_Layer
-      value: 9
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7992228048046789824, guid: bc9cc79c1719a9e42849919f1b1c6149,
         type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 2147483647
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 9081603949109513472, guid: bc9cc79c1719a9e42849919f1b1c6149,
         type: 3}
       propertyPath: m_Layer
-      value: 9
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 9081603949109513472, guid: bc9cc79c1719a9e42849919f1b1c6149,
         type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 2147483647
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 9215619837274967953, guid: bc9cc79c1719a9e42849919f1b1c6149,
         type: 3}
       propertyPath: m_Layer
-      value: 9
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 9215619837274967953, guid: bc9cc79c1719a9e42849919f1b1c6149,
         type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 2147483647
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 3824939489991943837, guid: bc9cc79c1719a9e42849919f1b1c6149,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 90068854121292034}
   m_SourcePrefab: {fileID: 100100000, guid: bc9cc79c1719a9e42849919f1b1c6149, type: 3}
 --- !u!4 &69549370082417981 stripped
 Transform:
@@ -3487,3 +3496,23 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 52395207918942702}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &3868256843212365683 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3824939489991943837, guid: bc9cc79c1719a9e42849919f1b1c6149,
+    type: 3}
+  m_PrefabInstance: {fileID: 52395207918942702}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &90068854121292034
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3868256843212365683}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed36f894de56e764796475432bcd5cfe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  leftHandModel: {fileID: 0}
+  rightHandModel: {fileID: 0}
