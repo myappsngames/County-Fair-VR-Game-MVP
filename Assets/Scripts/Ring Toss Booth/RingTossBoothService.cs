@@ -13,7 +13,6 @@ public class RingTossBoothService : MonoBehaviour
 
     [SerializeField] private int scoreToAdd = 10;
 
-
     private int _score;
     // Variables used to reset rings back to starting positions & rotations
     private Vector3[] _ringStartingPositions;

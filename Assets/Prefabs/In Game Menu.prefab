@@ -808,7 +808,7 @@ GameObject:
   - component: {fileID: 4093042528065776951}
   - component: {fileID: 1336312237493378898}
   - component: {fileID: 8074528300492840013}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: In Game Menu
   m_TagString: Untagged
   m_Icon: {fileID: 0}

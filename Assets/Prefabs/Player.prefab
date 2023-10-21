@@ -3082,8 +3082,8 @@ MonoBehaviour:
   m_Move: {fileID: 6972639530819350904, guid: c348712bda248c246b8c49b3db54643f, type: 3}
   m_UIScroll: {fileID: 2464016903823916871, guid: c348712bda248c246b8c49b3db54643f,
     type: 3}
-  m_SmoothMotionEnabled: 0
-  m_SmoothTurnEnabled: 1
+  m_SmoothMotionEnabled: 1
+  m_SmoothTurnEnabled: 0
   m_UIScrollingEnabled: 1
   m_RayInteractorChanged:
     m_PersistentCalls:
@@ -3833,7 +3833,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 55
   m_InteractionLayers:
-    m_Bits: 55
+    m_Bits: 2147483680
   m_AttachTransform: {fileID: 8375841266869010367}
   m_KeepSelectedTargetValid: 1
   m_DisableVisualsWhenBlockedInGroup: 1
@@ -4943,14 +4943,14 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8050554341879173828}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: -0, y: 0.0031877756, z: -0, w: 0.999995}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 966667351866519935}
   m_Father: {fileID: 212141613442293994}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0.365, z: 0}
 --- !u!20 &1043070518721147365
 Camera:
   m_ObjectHideFlags: 0
@@ -5210,7 +5210,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 55
   m_InteractionLayers:
-    m_Bits: 55
+    m_Bits: 2147483680
   m_AttachTransform: {fileID: 5930996019504481568}
   m_KeepSelectedTargetValid: 1
   m_DisableVisualsWhenBlockedInGroup: 1
@@ -5751,11 +5751,26 @@ PrefabInstance:
       propertyPath: m_Name
       value: In Game Menu Toggle Button
       objectReference: {fileID: 0}
+    - target: {fileID: 830172789273249481, guid: 3b492c1e55a75c54eb299459ac163e7b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 2260219168104450085, guid: 3b492c1e55a75c54eb299459ac163e7b,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 1581995820375426980}
+    - target: {fileID: 3435428816232347830, guid: 3b492c1e55a75c54eb299459ac163e7b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4454335863876113578, guid: 3b492c1e55a75c54eb299459ac163e7b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 5731480898506692659, guid: 3b492c1e55a75c54eb299459ac163e7b,
         type: 3}
       propertyPath: m_Pivot.x
