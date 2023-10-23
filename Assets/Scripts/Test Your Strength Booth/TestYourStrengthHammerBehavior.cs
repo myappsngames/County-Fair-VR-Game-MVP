@@ -3,7 +3,7 @@ using UnityEngine;
 public class TestYourStrengthHammerBehavior : MonoBehaviour
 {
     public float StrikeMultiplier => strikeMultiplier; // encapsulation; read only
-    [SerializeField] private float strikeMultiplier = 0.01f;
+    [SerializeField] private float strikeMultiplier = 0.02f;
 
     [SerializeField] private Transform centerOfMass;
     private Rigidbody _rigidbody;

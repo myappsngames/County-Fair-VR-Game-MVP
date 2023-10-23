@@ -8,9 +8,11 @@ public class PistolBehavior : MonoBehaviour
     // field to control min and max pitch of sound
     [SerializeField] float minPitch = 0.9f;
     [SerializeField] float maxPitch = 1.1f;
-    // variable for audio source
+    // field for audio source
     [SerializeField] private AudioSource _balloonPop;
     [SerializeField] private AudioSource _gunBlast;
+    // field for balloon particles
+    [SerializeField] private GameObject balloonPopParticles;
 
     private DartBoothService _dartBoothService;
 
@@ -37,12 +39,19 @@ public class PistolBehavior : MonoBehaviour
             // if collider has Balloon Tag, then deactivate balloon object (Pop Balloon)
             if(hit.transform.CompareTag("Balloon"))
             {
+                // instantiate particles
+                Instantiate(balloonPopParticles,
+                hit.transform.position,
+                hit.transform.rotation);
+
                 // set balloon that is hit to false
                 hit.transform.gameObject.SetActive(false);
+
                 // varies the pitch
                 _balloonPop.pitch = Random.Range(minPitch, maxPitch);    
                 // PlayOneShot allows sound clip to finish
                 _balloonPop.PlayOneShot(_balloonPop.clip);
+
                 // keep track of popped balloons to end dart booth game
                 _dartBoothService.PopBalloon();   
             }

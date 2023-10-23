@@ -1,13 +1,20 @@
+using System;
 using System.Collections;
 using UnityEngine;
 
 public class TestYourStrengthService : MonoBehaviour
 {
+    // event for updated slider height
+    public event Action<float> sliderHeightUpdated;
+
+    // Slider
     [SerializeField] private Transform slider;
     [SerializeField] private float maxHeight = 6.63f;
     [SerializeField] private float sliderDuration = 1f;
+
     private float _initialSliderHeight;
     private bool _isSliderMoving;
+
 
     private void Start()
     {
@@ -56,6 +63,9 @@ public class TestYourStrengthService : MonoBehaviour
             // lerp: gradually move from one position to another
             slider.localPosition = Vector3.Lerp(startPos, endPos, elapsedTime / sliderDuration);
             elapsedTime += Time.deltaTime;
+           
+            // call event to notify PrizeManager
+            sliderHeightUpdated?.Invoke(targetHeight);
             yield return null;
         }
 

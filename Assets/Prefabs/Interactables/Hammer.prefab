@@ -96,8 +96,8 @@ GameObject:
   m_Component:
   - component: {fileID: 7860324504368618534}
   - component: {fileID: 3147341601215250063}
-  - component: {fileID: 6965230180654408103}
   - component: {fileID: 1701693072389997669}
+  - component: {fileID: 3783198375533291537}
   m_Layer: 0
   m_Name: Hammer
   m_TagString: Hammer
@@ -149,20 +149,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 2
---- !u!114 &6965230180654408103
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2234703962169206510}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 85bef99bcec5e014d8834558051f64a2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  strikeMultiplier: 0.01
-  centerOfMass: {fileID: 3335064216616213254}
 --- !u!114 &1701693072389997669
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -181,7 +167,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 4294967295
   m_InteractionLayers:
-    m_Bits: 1
+    m_Bits: 513
   m_DistanceCalculationMode: 1
   m_SelectMode: 1
   m_FocusMode: 1
@@ -315,6 +301,20 @@ MonoBehaviour:
   m_StartingSingleGrabTransformers: []
   m_StartingMultipleGrabTransformers: []
   m_AddDefaultGrabTransformers: 1
+--- !u!114 &3783198375533291537
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2234703962169206510}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 85bef99bcec5e014d8834558051f64a2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  strikeMultiplier: 0.02
+  centerOfMass: {fileID: 3335064216616213254}
 --- !u!1 &4558674752234110027
 GameObject:
   m_ObjectHideFlags: 0
@@ -466,6 +466,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: GFX
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8b5ee96ecc74bce429d2a1eb325bf0fa,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

@@ -10,10 +10,12 @@ public class RingTossBoothService : MonoBehaviour
 
     // reference to list of rings
     [SerializeField] private GameObject[] rings;
+    // score to add
 
     [SerializeField] private int scoreToAdd = 10;
-
+    // variable for score
     private int _score;
+
     // Variables used to reset rings back to starting positions & rotations
     private Vector3[] _ringStartingPositions;
     private Quaternion[] _ringStartingRotations;
@@ -36,7 +38,7 @@ public class RingTossBoothService : MonoBehaviour
         // add and update the score
         _score += scoreToAdd;
         // event that other scripts can subscribe to when score has been updated; broadcasts the score whenever the score changes
-        ScoreUpdated?.Invoke(_score); // if none are subscribed, even is not invoked
+        ScoreUpdated?.Invoke(_score); // if none are subscribed, event is not invoked
     }
 
     // Method for reseting the game

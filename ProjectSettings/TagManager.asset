@@ -12,6 +12,7 @@ TagManager:
   - Left Hand Model
   - Right Hand Model
   - Pistol
+  - Slider
   layers:
   - Default
   - TransparentFX

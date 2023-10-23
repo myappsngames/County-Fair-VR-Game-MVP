@@ -13,7 +13,7 @@ public class CollisionSound : MonoBehaviour
     [SerializeField] float maxPitch = 1.1f;
 
     // variable for audio source
-    private AudioSource _audioSource;
+    [SerializeField] AudioSource _audioSource;
 
     private void Awake()
     {

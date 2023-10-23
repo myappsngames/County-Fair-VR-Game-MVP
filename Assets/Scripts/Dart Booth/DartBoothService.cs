@@ -1,7 +1,10 @@
+using System;
 using UnityEngine;
 
 public class DartBoothService : MonoBehaviour
 {
+    public event Action<float> TimerUpdated;
+
     [SerializeField] GameObject[] balloons;
 
     private int _balloonsPopped;
@@ -18,9 +21,10 @@ public class DartBoothService : MonoBehaviour
         {
             // for every frame in the update method, add the time elapsed between the last frame to _timer
             _timer += Time.deltaTime; // Time.deltaTime: time between frames
-        }
-        
+        } 
     }
+
+
     public void StartGame()
     {
         _isTimerRunning = true;
@@ -32,6 +36,8 @@ public class DartBoothService : MonoBehaviour
         if (_balloonsPopped == balloons.Length)
         {
             PauseGame();
+            // invoke event to subscribed listeners
+            TimerUpdated?.Invoke(_timer);
         }
     }
 

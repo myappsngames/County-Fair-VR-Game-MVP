@@ -202,7 +202,6 @@ GameObject:
   - component: {fileID: 8303124437995384539}
   - component: {fileID: 6138266187486232025}
   - component: {fileID: 1371971807357715689}
-  - component: {fileID: 2201746431440763779}
   m_Layer: 0
   m_Name: Pistol
   m_TagString: Pistol
@@ -463,20 +462,8 @@ MonoBehaviour:
   maxPitch: 1.1
   _balloonPop: {fileID: 5338717276692837001}
   _gunBlast: {fileID: 7981087348691091889}
---- !u!114 &2201746431440763779
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3824939489991943837}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ed36f894de56e764796475432bcd5cfe, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  leftHandModel: {fileID: 0}
-  rightHandModel: {fileID: 0}
+  balloonPopParticles: {fileID: 3390167938706114142, guid: a34da81f528a169408a13c00e2aa0c78,
+    type: 3}
 --- !u!1 &4050953314586054057
 GameObject:
   m_ObjectHideFlags: 0
