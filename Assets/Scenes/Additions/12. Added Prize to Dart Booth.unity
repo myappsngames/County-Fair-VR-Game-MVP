@@ -6998,6 +6998,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4248033190787176710, guid: 3e16dfb547c2552428d235a74a3cc046,
         type: 3}
+      propertyPath: m_RaycastMask.m_Bits
+      value: 2147483648
+      objectReference: {fileID: 0}
+    - target: {fileID: 4248033190787176710, guid: 3e16dfb547c2552428d235a74a3cc046,
+        type: 3}
       propertyPath: m_InteractionLayers.m_Bits
       value: 2147483648
       objectReference: {fileID: 0}
@@ -7005,6 +7010,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_InteractionLayers.m_Bits
       value: 15927
+      objectReference: {fileID: 0}
+    - target: {fileID: 6520375124636671354, guid: 3e16dfb547c2552428d235a74a3cc046,
+        type: 3}
+      propertyPath: m_RaycastMask.m_Bits
+      value: 33
       objectReference: {fileID: 0}
     - target: {fileID: 6520375124636671354, guid: 3e16dfb547c2552428d235a74a3cc046,
         type: 3}
@@ -7018,8 +7028,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6990359146764547910, guid: 3e16dfb547c2552428d235a74a3cc046,
         type: 3}
+      propertyPath: m_RaycastMask.m_Bits
+      value: 33
+      objectReference: {fileID: 0}
+    - target: {fileID: 6990359146764547910, guid: 3e16dfb547c2552428d235a74a3cc046,
+        type: 3}
       propertyPath: m_InteractionLayers.m_Bits
       value: 544
+      objectReference: {fileID: 0}
+    - target: {fileID: 7019210790098480983, guid: 3e16dfb547c2552428d235a74a3cc046,
+        type: 3}
+      propertyPath: m_RaycastMask.m_Bits
+      value: 2147483648
       objectReference: {fileID: 0}
     - target: {fileID: 7019210790098480983, guid: 3e16dfb547c2552428d235a74a3cc046,
         type: 3}
@@ -7152,7 +7172,7 @@ PrefabInstance:
     - target: {fileID: 737809610492451462, guid: 4469a38bbec71af41b1dee10d71e0f06,
         type: 3}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2671497570819027438, guid: 4469a38bbec71af41b1dee10d71e0f06,
         type: 3}
