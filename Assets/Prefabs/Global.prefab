@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 7035450408241726326}
   m_Layer: 0
   m_Name: Test Your Strength Booth Ticket Spawn Point
-  m_TagString: Untagged
+  m_TagString: Ticket - Test Your Strength Booth
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -104,7 +104,7 @@ GameObject:
   - component: {fileID: 1002512702325056896}
   m_Layer: 0
   m_Name: Ring Toss Ticket Spawn Point
-  m_TagString: Untagged
+  m_TagString: Ticket - Ring Toss Booth
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -212,7 +212,7 @@ GameObject:
   - component: {fileID: 3857961942442166363}
   m_Layer: 0
   m_Name: Dart Booth Ticket Spawn Point
-  m_TagString: Untagged
+  m_TagString: Ticket - Dart Booth
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

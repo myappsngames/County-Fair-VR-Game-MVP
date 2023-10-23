@@ -3,23 +3,51 @@ using UnityEngine.XR.Interaction.Toolkit;
 
 public class PrizeBoothBehavior : MonoBehaviour
 {
-    [SerializeField] private XRSocketInteractor socketInteractor;
+    [SerializeField] public XRSocketInteractor _socketInteractor;
     [Header("Tickets")]
-    [SerializeField] private GameObject ringTossBoothTicket;
-    [SerializeField] private GameObject testYourStrengthBoothTicket;
-    [SerializeField] private GameObject dartBoothTicket;
+    [SerializeField] public GameObject ringTossBoothTicket;
+    [SerializeField] public GameObject testYourStrengthBoothTicket;
+    [SerializeField] public GameObject dartBoothTicket;
 
+    [Header("Prizes")]
+    [SerializeField] public GameObject RingTossBoothPrizePrefab;
+    [SerializeField] public Transform RingTossBoothPrizeSpawnPoint;
+
+    [SerializeField] public GameObject TestYourStrengthPrizePrefab;
+    [SerializeField] public Transform TestYourStrengthPrizeSpawnPoint;
+
+    [SerializeField] public GameObject DartBoothPrizePrefab;
+    [SerializeField] public Transform DartBoothPrizeSpawnPoint;
 
 
     // Start is called before the first frame update
     void Start()
     {
-        socketInteractor = GetComponent<XRSocketInteractor>();
+        _socketInteractor = GetComponent<XRSocketInteractor>();
     }
 
-    // Update is called once per frame
-    void Update()
+    public void SpawnRingTossBoothPrize() // Pink
     {
-        //socketInteractor.selectEntered
+        Instantiate(
+                RingTossBoothPrizePrefab,
+                RingTossBoothPrizeSpawnPoint.position,
+                RingTossBoothPrizeSpawnPoint.rotation);
+    }
+
+    public void SpawnTestYourStrengthBoothPrize() // Yellow
+    {
+        Instantiate(
+                TestYourStrengthPrizePrefab,
+                TestYourStrengthPrizeSpawnPoint.position,
+                TestYourStrengthPrizeSpawnPoint.rotation);
+    }
+
+
+    public void SpawnDartBoothPrize() // Green
+    {
+        Instantiate(
+                DartBoothPrizePrefab,
+                DartBoothPrizeSpawnPoint.position,
+                DartBoothPrizeSpawnPoint.rotation);
     }
 }

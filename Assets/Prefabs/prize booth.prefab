@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1891061008711568988}
   - component: {fileID: 3800828358207478}
-  - component: {fileID: 4169314938120860177}
+  - component: {fileID: 7054365173562749335}
   m_Layer: 0
   m_Name: Prize Booth Socket Interactor
   m_TagString: Untagged
@@ -27,12 +27,11 @@ Transform:
   m_GameObject: {fileID: 57149086726270700}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.004, y: 1.34, z: 0.071}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 1236820324564036580}
-  m_Father: {fileID: 4695497227756896546}
+  m_LocalPosition: {x: 0.002000006, y: 0.0000008940697, z: -0.29999983}
+  m_LocalScale: {x: 3, y: 3, z: 3}
+  m_ConstrainProportionsScale: 1
+  m_Children: []
+  m_Father: {fileID: 1236820324564036580}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!135 &3800828358207478
 SphereCollider:
@@ -55,7 +54,7 @@ SphereCollider:
   serializedVersion: 3
   m_Radius: 0.1
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &4169314938120860177
+--- !u!114 &7054365173562749335
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -64,7 +63,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 57149086726270700}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 60523e0647cc6ab43acc73cb266a32a7, type: 3}
+  m_Script: {fileID: 11500000, guid: 90cb2ee4b7fdb3941bb05215476e92c9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_InteractionManager: {fileID: 0}
@@ -72,7 +71,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 4294967295
   m_InteractionLayers:
-    m_Bits: 15360
+    m_Bits: 1
   m_AttachTransform: {fileID: 0}
   m_KeepSelectedTargetValid: 1
   m_DisableVisualsWhenBlockedInGroup: 1
@@ -117,8 +116,10 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_ShowInteractableHoverMeshes: 1
-  m_InteractableHoverMeshMaterial: {fileID: 0}
-  m_InteractableCantHoverMeshMaterial: {fileID: 0}
+  m_InteractableHoverMeshMaterial: {fileID: 2100000, guid: 9142ddf4704c2cf40af81ef783586418,
+    type: 2}
+  m_InteractableCantHoverMeshMaterial: {fileID: 2100000, guid: 502ca5de23f3e3c44b548b160d8cb42a,
+    type: 2}
   m_SocketActive: 1
   m_InteractableHoverScale: 1
   m_RecycleDelayTime: 1
@@ -127,6 +128,7 @@ MonoBehaviour:
   m_SocketScaleMode: 0
   m_FixedScale: {x: 1, y: 1, z: 1}
   m_TargetBoundsSize: {x: 1, y: 1, z: 1}
+  targetTag: Ticket - Ring Toss Booth
 --- !u!1 &266322700351325534
 GameObject:
   m_ObjectHideFlags: 0
@@ -306,7 +308,7 @@ GameObject:
   - component: {fileID: 926916344125184685}
   m_Layer: 0
   m_Name: Pink Bear Prize
-  m_TagString: Untagged
+  m_TagString: Pink Bear
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -539,6 +541,135 @@ Transform:
   - {fileID: 753693786936019951}
   m_Father: {fileID: 6848849660971519200}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &626481978324754505
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7071093206461855306}
+  - component: {fileID: 2112965290130313271}
+  - component: {fileID: 1704546015536707851}
+  m_Layer: 0
+  m_Name: Prize Booth Socket Interactor (2)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 2147483647
+  m_IsActive: 1
+--- !u!4 &7071093206461855306
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 626481978324754505}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.001999992, y: 0, z: 0.29999995}
+  m_LocalScale: {x: 3, y: 3, z: 3}
+  m_ConstrainProportionsScale: 1
+  m_Children: []
+  m_Father: {fileID: 1236820324564036580}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!135 &2112965290130313271
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 626481978324754505}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 0.1
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &1704546015536707851
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 626481978324754505}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 90cb2ee4b7fdb3941bb05215476e92c9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_InteractionManager: {fileID: 0}
+  m_InteractionLayerMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_InteractionLayers:
+    m_Bits: 4294967295
+  m_AttachTransform: {fileID: 0}
+  m_KeepSelectedTargetValid: 1
+  m_DisableVisualsWhenBlockedInGroup: 1
+  m_StartingSelectedInteractable: {fileID: 0}
+  m_StartingTargetFilter: {fileID: 0}
+  m_HoverEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_HoverExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_SelectEntered:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1931916973581784338}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+  m_SelectExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_StartingHoverFilters: []
+  m_StartingSelectFilters: []
+  m_OnHoverEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnHoverExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnSelectEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnSelectExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_ShowInteractableHoverMeshes: 1
+  m_InteractableHoverMeshMaterial: {fileID: 2100000, guid: 9142ddf4704c2cf40af81ef783586418,
+    type: 2}
+  m_InteractableCantHoverMeshMaterial: {fileID: 2100000, guid: 502ca5de23f3e3c44b548b160d8cb42a,
+    type: 2}
+  m_SocketActive: 1
+  m_InteractableHoverScale: 1
+  m_RecycleDelayTime: 1
+  m_HoverSocketSnapping: 0
+  m_SocketSnappingRadius: 0.1
+  m_SocketScaleMode: 0
+  m_FixedScale: {x: 1, y: 1, z: 1}
+  m_TargetBoundsSize: {x: 1, y: 1, z: 1}
+  targetTag: Ticket - Dart Booth
 --- !u!1 &669986963547044012
 GameObject:
   m_ObjectHideFlags: 0
@@ -1101,7 +1232,7 @@ GameObject:
   - component: {fileID: 4743275971235143704}
   m_Layer: 0
   m_Name: Green Bear Prize
-  m_TagString: Untagged
+  m_TagString: Green Bear
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2277,7 +2408,7 @@ Transform:
   - {fileID: 5753910517249237552}
   - {fileID: 8980459123573071180}
   - {fileID: 8405832339056125016}
-  - {fileID: 1891061008711568988}
+  - {fileID: 1236820324564036580}
   - {fileID: 159487143273044026}
   - {fileID: 6848849660971519200}
   - {fileID: 7578052199112227750}
@@ -2296,12 +2427,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8c99ce869f378a7439ddee4f1bcb4024, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  socketInteractor: {fileID: 0}
+  _socketInteractor: {fileID: 0}
   ringTossBoothTicket: {fileID: 1520362046037256279, guid: a35dc65f5397a664a8ccd836a91bce72,
     type: 3}
-  testYourStrengthBoothTicket: {fileID: 0}
+  testYourStrengthBoothTicket: {fileID: 6559192435160939403, guid: 131463187b2e4a44a8bbc8f3c7eb05aa,
+    type: 3}
   dartBoothTicket: {fileID: 7624559859027490780, guid: 2b1d15e374cbfde40b2afa18c5b1f3cd,
     type: 3}
+  RingTossBoothPrizePrefab: {fileID: 286881478213865081}
+  RingTossBoothPrizeSpawnPoint: {fileID: 6848849660971519200}
+  TestYourStrengthPrizePrefab: {fileID: 4635963128555824463}
+  TestYourStrengthPrizeSpawnPoint: {fileID: 7578052199112227750}
+  DartBoothPrizePrefab: {fileID: 1931916973581784338}
+  DartBoothPrizeSpawnPoint: {fileID: 7605695721793125500}
 --- !u!1 &4335928610436413288
 GameObject:
   m_ObjectHideFlags: 0
@@ -2398,7 +2536,7 @@ GameObject:
   - component: {fileID: 5651987413798869115}
   m_Layer: 0
   m_Name: Yellow Bear Prize
-  m_TagString: Untagged
+  m_TagString: Yellow Bear
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3212,6 +3350,135 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!1 &7007121113571119922
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8282597730805123418}
+  - component: {fileID: 6478852394119453601}
+  - component: {fileID: 7164739662047541681}
+  m_Layer: 0
+  m_Name: Prize Booth Socket Interactor (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 2147483647
+  m_IsActive: 1
+--- !u!4 &8282597730805123418
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7007121113571119922}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.0019998548, y: 0.00000022856125, z: 0.000000022856124}
+  m_LocalScale: {x: 3, y: 3, z: 3}
+  m_ConstrainProportionsScale: 1
+  m_Children: []
+  m_Father: {fileID: 1236820324564036580}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!135 &6478852394119453601
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7007121113571119922}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 0.1
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &7164739662047541681
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7007121113571119922}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 90cb2ee4b7fdb3941bb05215476e92c9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_InteractionManager: {fileID: 0}
+  m_InteractionLayerMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_InteractionLayers:
+    m_Bits: 4294967295
+  m_AttachTransform: {fileID: 0}
+  m_KeepSelectedTargetValid: 1
+  m_DisableVisualsWhenBlockedInGroup: 1
+  m_StartingSelectedInteractable: {fileID: 0}
+  m_StartingTargetFilter: {fileID: 0}
+  m_HoverEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_HoverExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_SelectEntered:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 4635963128555824463}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+  m_SelectExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_StartingHoverFilters: []
+  m_StartingSelectFilters: []
+  m_OnHoverEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnHoverExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnSelectEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnSelectExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_ShowInteractableHoverMeshes: 1
+  m_InteractableHoverMeshMaterial: {fileID: 2100000, guid: 9142ddf4704c2cf40af81ef783586418,
+    type: 2}
+  m_InteractableCantHoverMeshMaterial: {fileID: 2100000, guid: 502ca5de23f3e3c44b548b160d8cb42a,
+    type: 2}
+  m_SocketActive: 1
+  m_InteractableHoverScale: 1
+  m_RecycleDelayTime: 1
+  m_HoverSocketSnapping: 0
+  m_SocketSnappingRadius: 0.1
+  m_SocketScaleMode: 0
+  m_FixedScale: {x: 1, y: 1, z: 1}
+  m_TargetBoundsSize: {x: 1, y: 1, z: 1}
+  targetTag: Ticket - Test Your Strength Booth
 --- !u!1 &7051046340344157712
 GameObject:
   m_ObjectHideFlags: 0
@@ -3293,13 +3560,16 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7076364412944996427}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.35, y: 0.35, z: 0.35}
-  m_ConstrainProportionsScale: 1
-  m_Children: []
-  m_Father: {fileID: 1891061008711568988}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalRotation: {x: 0.38268343, y: 0, z: 0, w: 0.92387956}
+  m_LocalPosition: {x: -0, y: 1.315, z: 0}
+  m_LocalScale: {x: 0.4, y: 0.05, z: 0.5}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1891061008711568988}
+  - {fileID: 8282597730805123418}
+  - {fileID: 7071093206461855306}
+  m_Father: {fileID: 4695497227756896546}
+  m_LocalEulerAnglesHint: {x: 45, y: 0, z: 0}
 --- !u!33 &14851980076768385
 MeshFilter:
   m_ObjectHideFlags: 0

@@ -63,10 +63,40 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2511152510760149279, guid: a9f32f86f22ee424aa264ece628bdea3,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4283144121271650686, guid: a9f32f86f22ee424aa264ece628bdea3,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5382111098066313559, guid: a9f32f86f22ee424aa264ece628bdea3,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6769613123371265968, guid: a9f32f86f22ee424aa264ece628bdea3,
         type: 3}
       propertyPath: m_Name
-      value: Ticket Variant
+      value: Ticket - Dart Booth Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 6769613123371265968, guid: a9f32f86f22ee424aa264ece628bdea3,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6769613123371265968, guid: a9f32f86f22ee424aa264ece628bdea3,
+        type: 3}
+      propertyPath: m_TagString
+      value: Ticket - Dart Booth
+      objectReference: {fileID: 0}
+    - target: {fileID: 8326091070051100736, guid: a9f32f86f22ee424aa264ece628bdea3,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

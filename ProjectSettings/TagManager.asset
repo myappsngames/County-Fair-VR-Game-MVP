@@ -13,6 +13,12 @@ TagManager:
   - Right Hand Model
   - Pistol
   - Slider
+  - Ticket - Dart Booth
+  - Ticket - Ring Toss Booth
+  - Ticket - Test Your Strength Booth
+  - Pink Bear
+  - Green Bear
+  - Yellow Bear
   layers:
   - Default
   - TransparentFX
@@ -24,9 +30,9 @@ TagManager:
   - 
   - CottonCandy
   - Booth
-  - 
-  - 
-  - 
+  - Ticket - Dart Booth
+  - Ticket - Ring Toss Booth
+  - Ticket - Test Your Strength Booth
   - 
   - 
   - 

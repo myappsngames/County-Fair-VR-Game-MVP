@@ -16,17 +16,17 @@ PrefabInstance:
     - target: {fileID: 370668818374286354, guid: a9f32f86f22ee424aa264ece628bdea3,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 28.449
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 370668818374286354, guid: a9f32f86f22ee424aa264ece628bdea3,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.392
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 370668818374286354, guid: a9f32f86f22ee424aa264ece628bdea3,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 10.38
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 370668818374286354, guid: a9f32f86f22ee424aa264ece628bdea3,
         type: 3}
@@ -68,15 +68,45 @@ PrefabInstance:
       propertyPath: m_ConstrainProportionsScale
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 2511152510760149279, guid: a9f32f86f22ee424aa264ece628bdea3,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4283144121271650686, guid: a9f32f86f22ee424aa264ece628bdea3,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5382111098066313559, guid: a9f32f86f22ee424aa264ece628bdea3,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6769613123371265968, guid: a9f32f86f22ee424aa264ece628bdea3,
         type: 3}
       propertyPath: m_Name
-      value: Ticket - Ring Toss Variant
+      value: Ticket - Ring Toss Booth Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 6769613123371265968, guid: a9f32f86f22ee424aa264ece628bdea3,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6769613123371265968, guid: a9f32f86f22ee424aa264ece628bdea3,
+        type: 3}
+      propertyPath: m_TagString
+      value: Ticket - Ring Toss Booth
       objectReference: {fileID: 0}
     - target: {fileID: 6830559497541562795, guid: a9f32f86f22ee424aa264ece628bdea3,
         type: 3}
       propertyPath: m_InteractionLayers.m_Bits
       value: 3073
+      objectReference: {fileID: 0}
+    - target: {fileID: 8326091070051100736, guid: a9f32f86f22ee424aa264ece628bdea3,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
