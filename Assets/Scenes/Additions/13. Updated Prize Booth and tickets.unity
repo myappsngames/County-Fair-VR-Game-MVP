@@ -6570,6 +6570,31 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1369289066}
     m_Modifications:
+    - target: {fileID: 929740765448290805, guid: b3cd9e13799448342aa866b52a672647,
+        type: 3}
+      propertyPath: m_UseGravity
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 929740765448290805, guid: b3cd9e13799448342aa866b52a672647,
+        type: 3}
+      propertyPath: m_AngularDrag
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 929740765448290805, guid: b3cd9e13799448342aa866b52a672647,
+        type: 3}
+      propertyPath: m_ImplicitCom
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 929740765448290805, guid: b3cd9e13799448342aa866b52a672647,
+        type: 3}
+      propertyPath: m_ImplicitTensor
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 929740765448290805, guid: b3cd9e13799448342aa866b52a672647,
+        type: 3}
+      propertyPath: m_CollisionDetection
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5420200344300940823, guid: b3cd9e13799448342aa866b52a672647,
         type: 3}
       propertyPath: m_Name
